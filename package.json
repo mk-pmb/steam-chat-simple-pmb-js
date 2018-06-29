@@ -1,0 +1,35 @@
+{ "name": "steam-chat-simple-pmb",
+  "version": "0.0.1",
+  "description": "Simple CLI chat client for Steam (Valve's gaming community).",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/steam-chat-simple-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/steam-chat-simple-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/steam-chat-simple-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "chat.node.js",
+  "scripts": { "test": "nodejs test/all.node.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "esmod-pmb": "^0.1.5",
+    "nofs": "^0.11.22",
+    "steam": "^1.4.0",
+    "strip-bom": "^3.0.0"
+  },
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
